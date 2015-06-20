@@ -1,0 +1,11 @@
+	//Da aggiungere sotto PANNELLO GESTIONE
+
+	$PARAMETERS['administration']['elezioni']['text']='Gestione Elezioni';
+	$PARAMETERS['administration']['elezioni']['url']='main.php?page=gestione_elezioni';
+	$PARAMETERS['administration']['elezioni']['access_level']=SUPERUSER;
+
+	//Da aggiungere sotto PANNELLO SERVIZI
+	
+	$PARAMETERS['office']['elezioni']['text']='Elezioni';
+	$PARAMETERS['office']['elezioni']['url']='main.php?page=servizi_elezioni';
+    $PARAMETERS['office']['elezioni']['access_level']=USER;
